@@ -1,0 +1,13 @@
+Pillow
+opencv-python
+torch
+torchvision
+numpy
+tqdm
+pandas
+matplotlib
+pyyaml
+seaborn
+easyocr
+Flask
+gunicorn

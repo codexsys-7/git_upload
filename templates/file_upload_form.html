@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+	<title>upload</title>
+	<style>
+		body {
+		background: url('../static/bg3.jpg');
+		background-repeat: no-repeat;
+		background-size:100%;
+		height: 100vh;
+		}		
+
+	</style>
+</head>  
+<body>  
+	<header>
+		<div style=" border-radius: 5px;">
+			<p style="font-size:40px;color: aqua; text-align: center;">Helmet detection Using Flask</p>
+			
+			<!-- <p style="font-size:35px;color: aqua; text-align: center;">Classification Using Yolo</p> -->
+		</div>
+	</header>
+	<div>
+        <form action = "/success" method = "POST" enctype="multipart/form-data">  
+		<input style="margin: auto; margin-top: 15px; background-color:DodgerBlue; color: white; padding: 15px 32px; text-align: center; display: block; font-size: 16px; margin-bottom: 15px;" type="file" name="file" />  
+	    <input style="margin: auto; margin-top: 15px; background-color:DodgerBlue; color: white; padding: 15px 32px; text-align: center; display: block; font-size: 16px; margin-bottom: 15px;" type = "submit" value="Upload and Detect person not wearing helmet">  
+        </form>
+    </div>  
+</body>  
+</html>  

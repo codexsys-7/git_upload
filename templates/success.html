@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+	<title>success</title>  
+	<style>
+		.center {
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+		}
+	</style>
+</head>  
+<body style="background-color:#b3ffb3;">  
+	<header>
+		<div style="background-color:rgb(106, 90, 205); border-radius: 10px;">	
+			<div style="background-color:DodgerBlue; margin-top: 50px; height: 100px; border-radius: 10px;">
+				<p style="font-size:40px; text-align: center;">File uploaded successfully :</p>  
+			</div>			
+			<!-- <p style="font-size:35px; text-align: center;">{{name}}</p>   -->
+			<!--<img src="{{url_for('success', filename='{{ name }}')}}" align="middle" />-->
+		</div>
+	</header>
+	<div>
+		<div>
+			<p style="font-size:35px; text-align: center;">{{name}}</p>
+			<p style="font-size:25px; text-align: center;">Your Input Image</p>
+			<img class="center" src="{{ img }}">
+		</div>
+		<div>
+			<p style="font-size:25px; text-align: center;">Your Output Image</p>
+			<img class="center" src="{{ img2 }}">
+
+			<p style="font-size:25px; text-align: center;">Number plates info</p>
+			<p style="font-size:35px; text-align: center;">{{output}}</p>
+
+		</div>
+		
+	</div>
+
+
+</body>  
+</html>  
